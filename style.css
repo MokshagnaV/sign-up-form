@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    display: flex;
+    box-sizing: border-box;
+}
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    background: url(images/sign-up-bg.jpg);
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+}
+.main{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+.logo{
+    width: 100%;
+    background-color: rgba(96,117,140, 0.356);
+    margin-bottom: 50vh;
+    
+}
+.logo img{
+    width: 55%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    display: block;
+    margin: auto;
+}
+.credits{
+    font-size: smaller;
+    color: rgb(142,113,107);
+}
+.credits a {
+    color: inherit;
+}
+.desc{
+    font-weight: bold;
+}
+
+.form-card{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 10px;
+}
+.input-div{
+    display: inline-flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    margin: 0.2em 2.2em 0.3em 0;
+}
+
+input{
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus{
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.342);
+}
+input:valid:focus{
+    border-color: blue;
+}
