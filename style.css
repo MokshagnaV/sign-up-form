@@ -2,6 +2,8 @@ body{
     margin: 0%;
     display: flex;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,700&display=swap');
+    font-family: 'Roboto', sans-serif;
 }
 .logo-section{
     display: flex;
@@ -11,7 +13,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     height: 100vh;
-    flex-grow: 1;
+    flex:3;
 }
 .main{
     flex-grow: 2;
@@ -19,6 +21,8 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 2%;
+    flex:5;
+    font-size: larger;
 }
 .logo{
     width: 100%;
@@ -46,6 +50,7 @@ body{
 }
 
 .form-card{
+    font-size: medium;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.418);
     padding: 10px;
     margin-bottom: 1rem;
@@ -71,4 +76,13 @@ input:focus{
 }
 input:valid:focus{
     border-color: blue;
+}
+
+#btn{
+    width: fit-content;
+    padding: .5rem 1.5rem;
+    border: 5px solid burlywood;
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: bolder;
 }
